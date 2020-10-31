@@ -34,4 +34,4 @@ schema.yml
 
 `openapi-generator-cli generate -g typescript-angular -i ./schema.yaml -o ./frontend/openapi`
 
-## Develop Backand and Frontend
+## Develop Backend and Frontend
