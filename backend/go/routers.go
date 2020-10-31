@@ -47,7 +47,7 @@ func NewRouter(routers ...Router) *mux.Router {
 
 			handler = handlers.CORS(
 				handlers.AllowedHeaders([]string{"Content-Type"}),
-				handlers.AllowedMethods([]string{route.Method, "OPTIONS"}),
+				handlers.AllowedMethods([]string{route.Method}),
 				handlers.AllowedOrigins([]string{"http://localhost:4200"}))(handler)
 
 			router.
