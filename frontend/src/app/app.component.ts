@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { User, UserService } from "openapi"
-import { Subscriber } from 'rxjs';
 
 @Component({
   selector: 'app-root',
